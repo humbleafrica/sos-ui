@@ -12,19 +12,82 @@
     <!-- WARNING: Do not move or remove -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/main.css?v=1.0">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
 
-        <div id="header" class="row">Header</div>
-        <div id="nav-bar" class="row">Nav</div>
-        <div id="content" class="row">
-            <div id="left-content" class="col col-sm-auto">Left content</div>
-            <div id="right-content" class="col col-sm-3">Right content</div>
+        <div id="layout-header" class="row">Header</div>
+        <div id="layout-navbar" class="row">
+
+            <div role="navigation" class="navbar navbar-expand-lg navbar-dark bg-info text-white col">
+                <a class="navbar-brand" href="home.html">
+                    <i class="fas fa-home"></i>
+                    Welcome</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center d-sm-flex">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="alerts.html">Alerts<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resources.html">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
         </div>
-        <div id="footer" class="row">Footer</div>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+        <div id="layout-content" class="row">
+            <div id="layout-left-content" class="col col-sm-auto">Home</div>
+            <div id="layout-right-content" class="col col-sm-3">Right content</div>
+        </div>
+        <div  id="layout-footer" class="row ">
+
+            <ul class="nav justify-content-center d-sm-flex">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+        </div>
     </div>
 
     <!-- WARNING: Do not move or remove -->
@@ -36,6 +99,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/3f32ff9f8d.js"></script>
     <script src="../js/main.js"></script>
 </body>
 
