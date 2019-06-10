@@ -1,0 +1,15 @@
+.top-buffer-twenty{
+    margin-top: 20px;
+}
+.top-buffer-ten{
+    margin-top: 10px;
+}
+.latest-alerts{
+    list-style: none;
+}
+.latest-alerts li{
+    margin-top: 10px;
+}
+#layout-footer{
+    /* background-color: aquamarine; */
+}
