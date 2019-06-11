@@ -13,3 +13,10 @@
 #layout-footer{
     /* background-color: aquamarine; */
 }
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
